@@ -1,0 +1,31 @@
+# ignore temp files and folders
+.DS_Store
+.zip
+*.bak
+
+# ignore eclipse config files and folders
+.settings
+.project
+.classpath
+
+# ignore build related
+.gradle
+build
+bin
+
+# ignore generate scripts
+init_mongo_for_proper_dfs.js
+
+# ignore IntellJ IDEA files and folders
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+.ideaDataSources/
+
+# ignore MANIFEST.MF
+MANIFEST.MF
+
+# ignore liquibase db changelog default folder
+db/
